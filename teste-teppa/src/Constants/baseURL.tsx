@@ -1,0 +1,1 @@
+export const baseURL ='https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo'
