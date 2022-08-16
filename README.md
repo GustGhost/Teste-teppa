@@ -27,10 +27,10 @@ axios.post('https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo')
 
 ex.:
 
-axios.delete('https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo')    
+axios.delete('https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo/:id')    
 
 4 - o endpoint put para alterar um dado, usando o id do dado que deseja alterar e alterando o dados pelo body, mais específicamente {"description": ""}
 
 ex.:
 
-axios.put('https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo')
+axios.put('https://us-central1-teppa-teste-db.cloudfunctions.net/api/todo/:id')
